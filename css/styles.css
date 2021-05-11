@@ -632,6 +632,16 @@ pre code {
     }
 }
 
+@media screen and (max-width: 993px) {
+    .related {
+        display: none;
+    }
+    .my-4 {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
