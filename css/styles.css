@@ -1343,7 +1343,9 @@ pre code {
     }
     .col-lg-9 {
         flex: 0 0 75%;
-        max-width: 75%;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
     }
     .col-lg-10 {
         flex: 0 0 83.3333333333%;
@@ -5298,9 +5300,39 @@ a.badge-dark.focus {
 
 .jumbotron {
     padding: 2rem 1rem;
-    margin-bottom: 2rem;
-    background-color: #e9ecef;
-    border-radius: 0.3rem;
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, .2);
+}
+
+.c {
+    padding-top: 10px;
+    padding-bottom: 1px;
+    border-left: 3px solid rgba(255, 255, 255, .2);
+    border-right: 3px solid rgba(255, 255, 255, .2);
+    margin-bottom: 5%;
+}
+
+.tittle {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5%;
+    padding: 2rem 1rem;
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, .2);
+}
+
+.imgs {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.tittle .t {
+    width: 80%;
 }
 
 @media (min-width: 576px) {
@@ -5870,6 +5902,22 @@ a.badge-dark.focus {
     color: #fff;
     background-color: #1b1e21;
     border-color: #1b1e21;
+}
+
+.news {
+    text-align: center;
+    margin-left: 10%;
+}
+
+.relatedNews {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cente {
+    font-size: 50px;
+    text-align: center;
 }
 
 .close {

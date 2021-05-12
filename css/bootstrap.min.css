@@ -100,6 +100,18 @@ h1 {
     font-size: calc(1.375rem + 1.5vw)
 }
 
+.vid {
+    width: 800px;
+    height: 500px;
+}
+
+@media (max-width:700px) {
+    .vid {
+        max-width: 100%;
+        height: auto
+    }
+}
+
 @media (min-width:1200px) {
     .h1,
     h1 {
@@ -601,6 +613,11 @@ progress {
     height: auto
 }
 
+.vid-fluid {
+    width: 800px;
+    height: 600px;
+}
+
 .img-thumbnail {
     padding: .25rem;
     background-color: #686dc3;
@@ -692,7 +709,26 @@ progress {
     flex-wrap: wrap;
     margin-top: calc(var(--bs-gutter-y) * -1);
     margin-right: calc(var(--bs-gutter-x)/ -2);
-    margin-left: calc(var(--bs-gutter-x)/ -2)
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:767px) {
+    .row {
+        margin-left: 25%;
+    }
+}
+
+@media (max-width:570px) {
+    .row {
+        margin-left: 10%;
+    }
+}
+
+@media (max-width:400px) {
+    .row {
+        margin-left: auto;
+    }
 }
 
 .row>* {
@@ -1312,6 +1348,12 @@ progress {
     }
 }
 
+.cent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @media (min-width:992px) {
     .col-lg {
         -ms-flex: 1 0 0%;
@@ -1392,9 +1434,8 @@ progress {
         width: 66.666667%
     }
     .col-lg-9 {
-        -ms-flex: 0 0 auto;
-        flex: 0 0 auto;
-        width: 75%
+        display: flex;
+        width: 100%%
     }
     .col-lg-10 {
         -ms-flex: 0 0 auto;
@@ -4839,6 +4880,10 @@ fieldset:disabled .btn {
     border-radius: .5rem
 }
 
+.cd {
+    min-height: 420px;
+}
+
 .card>hr {
     margin-right: 0;
     margin-left: 0
@@ -6150,18 +6195,6 @@ fieldset:disabled .btn {
 
 .modal-fullscreen .modal-footer {
     border-radius: 0
-}
-
-@media (max-width:767px) {
-    .news {
-        margin-left: 10%;
-    }
-}
-
-@media (max-width:400px) {
-    .news {
-        margin: auto;
-    }
 }
 
 @media (max-width:575.98px) {
