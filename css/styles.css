@@ -5911,7 +5911,14 @@ a.badge-dark.focus {
     margin-left: 10%;
 }
 
+.cnttt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .relatedNews {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
