@@ -723,7 +723,13 @@ progress {
 
 @media (max-width:570px) {
     .rows {
-        margin-left: 10%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width:570px) {
+    .rows {
+        margin-left: -5%;
     }
 }
 
