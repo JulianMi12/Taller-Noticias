@@ -4883,6 +4883,11 @@ fieldset:disabled .btn {
     border-radius: .5rem
 }
 
+.cr {
+    min-height: 150px;
+    max-width: 18rem;
+}
+
 .cd {
     min-height: 420px;
 }
