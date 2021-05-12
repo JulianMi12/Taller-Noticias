@@ -748,6 +748,10 @@ progress {
     flex: 1 0 0%
 }
 
+#analisis {
+    font-size: 20px;
+}
+
 .row-cols-auto>* {
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
