@@ -1343,9 +1343,7 @@ pre code {
     }
     .col-lg-9 {
         flex: 0 0 75%;
-        max-width: 100%;
-        display: flex;
-        justify-content: center;
+        max-width: 75%;
     }
     .col-lg-10 {
         flex: 0 0 83.3333333333%;
@@ -5913,6 +5911,11 @@ a.badge-dark.focus {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.cent {
+    align-items: center;
+    text-align: left;
 }
 
 .cente {
