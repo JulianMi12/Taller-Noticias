@@ -812,6 +812,15 @@ progress {
     width: 25%
 }
 
+.imgs {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
 .row-cols-5>* {
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;

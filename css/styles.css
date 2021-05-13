@@ -5334,6 +5334,37 @@ a.badge-dark.focus {
     align-items: center;
 }
 
+.imgss {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.p1 {
+    font-size: 20px;
+}
+
+.p2 {
+    font-size: 15px;
+}
+
+.p2 a,
+p3 a {
+    text-decoration: none;
+}
+
+.ul1 {
+    border-left: 2px solid var(--pink);
+    line-height: 35px;
+}
+
+.p2 {
+    list-style: none;
+}
+
 .tittle .t {
     width: 80%;
 }
